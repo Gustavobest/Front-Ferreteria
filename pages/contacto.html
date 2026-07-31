@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - PERNOMAX S.A.C. | Cotiza pernos, tuercas y fijaciones</title>
+    <meta name="description" content="Contáctanos para cotizar pernos, tuercas, tornillos, brocas y fijaciones. WhatsApp, correo o formulario. Lima, Perú.">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/styleContacto.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<!-- ==================== TOP BAR ==================== -->
+<div class="top-bar">
+    <div class="container">
+        <div class="top-bar-left">
+            <a href="https://wa.me/51935444145" target="_blank"><i class="fab fa-whatsapp"></i> +51 935 444 145</a>
+            <a href="mailto:info@pernomax.com.pe"><i class="far fa-envelope"></i> info@pernomax.com.pe</a>
+            <span><i class="fas fa-map-marker-alt"></i> Lima, Perú</span>
+        </div>
+        <div class="top-bar-right">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </div>
+</div>
+
+<!-- ==================== HEADER ==================== -->
+<header class="main-header">
+    <div class="container header-inner">
+        <a href="../index.html" class="logo">
+            <img src="https://via.placeholder.com/220x55/1a1a2e/ffffff?text=PERNOMAX" alt="PERNOMAX S.A.C.">
+        </a>
+        <nav class="main-nav" id="mainNav">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="marcas.html">Marcas</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="contacto.html" class="active">Contacto</a></li>
+            </ul>
+        </nav>
+        <a href="contacto.html" class="btn-header">Cotizar ahora</a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Menú">
+            <i class="fas fa-bars"></i>
+        </button>
+    </div>
+</header>
+
+<!-- ==================== PAGE HERO ==================== -->
+<section class="page-hero">
+    <div class="container">
+        <h1>Contacto</h1>
+        <p class="breadcrumb">
+            <a href="../index.html">Inicio</a> <span>/</span> Contacto
+        </p>
+    </div>
+</section>
+
+<!-- ==================== CONTACTO ==================== -->
+<section class="contact-section">
+    <div class="container contact-grid">
+
+        <!-- Info lateral -->
+        <div class="contact-info">
+            <h2>Hablemos de tu proyecto</h2>
+            <p>Estamos listos para cotizar y asesorarte. Elige el canal que prefieras o completa el formulario.</p>
+
+            <div class="contact-cards">
+                <a href="https://wa.me/51935444145" target="_blank" class="contact-card">
+                    <div class="contact-card-icon whatsapp">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <div>
+                        <h3>WhatsApp</h3>
+                        <p>+51 935 444 145</p>
+                    </div>
+                </a>
+
+                <a href="mailto:info@pernomax.com.pe" class="contact-card">
+                    <div class="contact-card-icon email">
+                        <i class="far fa-envelope"></i>
+                    </div>
+                    <div>
+                        <h3>Correo</h3>
+                        <p>info@pernomax.com.pe</p>
+                    </div>
+                </a>
+
+                <div class="contact-card">
+                    <div class="contact-card-icon location">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div>
+                        <h3>Ubicación</h3>
+                        <p>Lima, Perú</p>
+                    </div>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-card-icon hours">
+                        <i class="far fa-clock"></i>
+                    </div>
+                    <div>
+                        <h3>Horario</h3>
+                        <p>Lun – Vie: 8:00 – 18:00<br>Sáb: 8:00 – 13:00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Formulario -->
+        <div class="contact-form-wrap">
+            <h2>Solicita tu cotización</h2>
+            <p class="form-subtitle">Completa los datos y te contactamos a la brevedad.</p>
+
+            <form class="contact-form" id="contactForm" action="#" method="post">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="nombre">Nombre completo *</label>
+                        <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre">
+                    </div>
+                    <div class="form-group">
+                        <label for="empresa">Empresa</label>
+                        <input type="text" id="empresa" name="empresa" placeholder="Nombre de tu empresa">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="email">Correo electrónico *</label>
+                        <input type="email" id="email" name="email" required placeholder="correo@ejemplo.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="telefono">Teléfono / WhatsApp *</label>
+                        <input type="tel" id="telefono" name="telefono" required placeholder="+51 900 000 000">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="producto">Producto de interés</label>
+                    <select id="producto" name="producto">
+                        <option value="">Selecciona una opción</option>
+                        <option value="clavos">Clavos de acero</option>
+                        <option value="bisagras">Bisagras</option>
+                        <option value="brocas">Brocas</option>
+                        <option value="tarugos">Tarugos</option>
+                        <option value="pernos">Pernos y tuercas</option>
+                        <option value="tornillos">Tornillos</option>
+                        <option value="otro">Otro / varios</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="mensaje">Mensaje *</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" required placeholder="Cuéntanos qué necesitas: cantidades, medidas, plazos..."></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-submit">
+                    <i class="fas fa-paper-plane"></i> Enviar solicitud
+                </button>
+            </form>
+        </div>
+
+    </div>
+</section>
+
+<!-- ==================== CTA WHATSAPP ==================== -->
+<section class="cta">
+    <div class="container">
+        <h2>¿Prefieres escribir por WhatsApp?</h2>
+        <p>Respuesta rápida y directa a tus consultas de stock y precios.</p>
+        <div class="cta-buttons">
+            <a href="https://wa.me/51935444145" class="btn btn-whatsapp" target="_blank">
+                <i class="fab fa-whatsapp"></i> Abrir WhatsApp
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- ==================== FOOTER ==================== -->
+<footer class="main-footer">
+    <div class="container footer-grid">
+        <div class="footer-col">
+            <h4>PERNOMAX S.A.C.</h4>
+            <p>Especialistas en pernos, tuercas, tornillos, brocas, bisagras y tarugos de calidad para la industria y la construcción.</p>
+        </div>
+        <div class="footer-col">
+            <h4>Contacto</h4>
+            <ul>
+                <li><i class="fab fa-whatsapp"></i> +51 935 444 145</li>
+                <li><i class="far fa-envelope"></i> info@pernomax.com.pe</li>
+                <li><i class="fas fa-map-marker-alt"></i> Lima, Perú</li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Enlaces</h4>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="marcas.html">Marcas</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Síguenos</h4>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <p>&copy; 2026 PERNOMAX S.A.C. Todos los derechos reservados.</p>
+        </div>
+    </div>
+</footer>
+
+<script>
+    const menuToggle = document.getElementById('menuToggle');
+    const mainNav = document.getElementById('mainNav');
+    menuToggle.addEventListener('click', () => {
+        mainNav.classList.toggle('active');
+        menuToggle.querySelector('i').classList.toggle('fa-bars');
+        menuToggle.querySelector('i').classList.toggle('fa-times');
+    });
+
+    // Formulario (demo - sin backend)
+    document.getElementById('contactForm').addEventListener('submit', function (e) {
+        e.preventDefault();
+        alert('¡Gracias! Hemos recibido tu solicitud. Te contactaremos pronto.\n\n(Este es un formulario de demostración. Conecta un backend o servicio como Formspree para enviarlo de verdad.)');
+        this.reset();
+    });
+</script>
+</body>
+</html>
